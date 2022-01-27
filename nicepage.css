@@ -35148,8 +35148,13 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
 }
 
+.u-header .u-text-1 {
+  font-size: 3rem;
+  margin: -74px auto 0 96px;
+}
+
 .u-header .u-menu-1 {
-  margin: -79px 0 0 auto;
+  margin: -44px 0 60px auto;
 }
 
 .u-header .u-nav-1 {
@@ -35160,18 +35165,13 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
-
-.u-header .u-text-1 {
-  margin: -31px auto 60px 96px;
-}
 @media (max-width: 1199px) {
-  .u-header .u-menu-1 {
-    width: auto;
-    margin-top: -79px;
+  .u-header .u-text-1 {
+    margin-top: -74px;
   }
 
-  .u-header .u-text-1 {
-    font-size: 3rem;
+  .u-header .u-menu-1 {
+    width: auto;
   }
 }
 
@@ -35188,35 +35188,34 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-social-icons-1 {
   height: 32px;
   min-height: 16px;
-  width: 158px;
-  min-width: 94px;
+  width: 200px;
+  min-width: 120px;
   white-space: nowrap;
   margin: 44px auto;
 }
 
 .u-footer .u-icon-1 {
-  color: rgb(59, 89, 152) !important;
+  height: 100%;
 }
 
 .u-footer .u-icon-2 {
-  color: rgb(85, 172, 238) !important;
+  color: rgb(59, 89, 152) !important;
 }
 
 .u-footer .u-icon-3 {
-  color: rgb(197, 54, 164) !important;
+  color: rgb(85, 172, 238) !important;
 }
 
 .u-footer .u-icon-4 {
+  color: rgb(197, 54, 164) !important;
+}
+
+.u-footer .u-icon-5 {
   height: 100%;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
     min-height: 99px;
-  }
-
-  .u-footer .u-social-icons-1 {
-    width: 116px;
-    min-width: 68px;
   }
 }
 @media (max-width: 991px) {
